@@ -1,0 +1,5 @@
+{"query": "论文提出的核心方法是什么", "gold_chunk_indices": [0, 1], "document_id": 5}
+{"query": "实验所用数据集和评估指标", "gold_chunk_indices": [5, 6, 7], "document_id": 5}
+{"query": "消融实验的主要结论", "gold_chunk_indices": [12], "document_id": 5}
+{"query": "与已有工作相比的改进点", "gold_chunk_indices": [2, 3], "document_id": 5}
+{"query": "论文的结论是什么", "gold_chunk_indices": [8, 9], "document_id": 5}

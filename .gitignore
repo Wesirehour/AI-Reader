@@ -1,0 +1,74 @@
+# ===== Secrets & local config =====
+# Put LLM_BASE_URL and LLM_API_KEY in backend/.env (never commit secrets).
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenv
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+backend/app.db
+backend/app.db-journal
+
+# ===== Node / frontend =====
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/tsconfig.tsbuildinfo
+.npm
+.yarn
+.pnp.*
+
+# ===== Runtime artifacts (do NOT commit user data or built indexes) =====
+backend/uploads/
+backend/mineru_output/
+backend/mineru_outputz/
+backend/mineru_test_output/
+mineru_output/
+mineru_test_output/
+uploads/
+
+# ===== Scratch / local test scripts =====
+/deepseek.py
+/test.py
+/123.pdf
+
+# ===== OS & editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+!.vscode/settings.json.example
+*.swp
+*.swo
+.claude/
+.history/
+
+# ===== Logs / tmp =====
+*.log
+logs/
+tmp/

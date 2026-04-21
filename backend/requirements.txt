@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+requests
+python-dotenv
+openai<2
+langchain-mineru
+langchain-text-splitters
+langchain-community
+pymilvus
+faiss-cpu
+sentence-transformers
+huggingface-hub

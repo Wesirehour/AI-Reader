@@ -1,0 +1,25 @@
+{
+  "backend": "faiss",
+  "faiss": {
+    "cache_enabled": true
+  },
+  "milvus": {
+    "uri": "http://localhost:19530",
+    "token": "",
+    "user": "",
+    "password": "",
+    "db_name": "default",
+    "collection_prefix": "rag_doc_",
+    "metric_type": "COSINE",
+    "index_params": {
+      "index_type": "AUTOINDEX",
+      "metric_type": "COSINE",
+      "params": {}
+    },
+    "search_params": {
+      "params": {
+        "nprobe": 10
+      }
+    }
+  }
+}
